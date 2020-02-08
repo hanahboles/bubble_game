@@ -1,0 +1,28 @@
+body {
+	background-color: gray;
+}
+
+.controls {
+	background-color: black;
+	width: 1000px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+span {
+	color: white;
+}
+
+.game {
+	background-color: white;
+	height: 500px;
+	width: 1000px;
+}
+
+.dot {
+	background-color: blue;
+	border-radius: 50%;
+	height: 50px;
+	position: relative;
+	width: 50px;
+}
