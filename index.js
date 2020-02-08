@@ -21,7 +21,8 @@ function init() {
 	gameArea.appendChild(obj);
 
 	obj.addEventListener("click", updateScore);
-
+	obj.addEventListener("click", () => obj.remove());
+	
 	return obj;
 }
 
